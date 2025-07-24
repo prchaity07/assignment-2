@@ -1,0 +1,152 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px 0  150px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: #3A3A3A;
+}
+
+.nav-home{
+    
+    font-weight:bold;
+    color: #000000;
+}
+
+.nav-shop-about{
+    font-weight: 500;
+    color:rgba(137, 135, 161, 1) ;
+    opacity: 65%;
+
+}
+.cart{
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 221px 150px 0px 150px ;
+    align-items: center;
+}
+
+.banner-content{
+      width: 570px;
+      height: 299px;
+      align-content: center;}
+
+
+.banner-title{
+    margin-bottom: 0%; 
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.header-color{
+color: #E95A08;
+
+}
+
+.banner-description{
+     font-weight: 400;
+     font-size: 1.22rem;
+     color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-img{
+    max-width: 570px;
+    height: 355px;
+}
+
+/* Plant Section desgin */
+
+/* Mobile Responsive */
+@media screen and (max-width:576px){
+
+    /* header section */
+    header{
+
+    height: 38px;
+    width: 93%;
+    margin: 13px 17px 0px 17px;
+    }
+
+   nav ul li:not(.cart) {
+    display: none;
+    
+    }
+
+header img{
+   max-width: 100%;
+    height: auto;
+}
+nav ul{
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+/* Banner-Section */
+.banner-container{
+    flex-direction: column-reverse;
+    width: 99%;
+    margin: 13px 0px 0px 13px;
+    gap:25px ;
+    padding: 0%;
+    
+
+
+}
+.banner-content{
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.banner-title{
+
+    text-align:start;
+    font-size: 1.25rem;
+}
+
+.banner-description{
+    text-align: start;
+}
+.banner-img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.banner-img img{
+
+        width: 100%;
+        height: auto;
+}
+
+
+}
+    
