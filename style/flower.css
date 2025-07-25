@@ -256,6 +256,7 @@ color: #E95A08;
     background-repeat: no-repeat;
     text-align: center;
     align-items: center;
+    margin-bottom: 3%;
 
 }
 
@@ -305,6 +306,66 @@ input::placeholder{
     background-color: #E95A08;
     color: #FFFFFF;
 }
+/* footer   */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1320px;
+    height: 248px;
+
+}
+
+.website-intro{
+    width: 359px;
+    height: 179px;
+    align-items: start;
+    align-content: start;
+    text-align: start;
+
+}
+.intro-description{
+    width: 359px;
+    height: 81px;
+    font-size: 1.24rem;
+    font-weight: 400;
+    opacity: 50%;
+}
+.footer-container ul li{
+    list-style: none;
+
+}
+
+.footer-container ul a{
+    text-decoration: none;
+    
+}
+
+.home-link ul {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 32px;
+    opacity: 60%;
+    
+}
+
+.feature-link ul{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 32px;
+    opacity: 60%;
+}
+
+.social-logo{
+    display: flex;
+    width: 216px;
+    height: 36px;
+    gap: 24px;
+
+}
+
+
+
 
 /* Mobile Responsive */
 @media screen and (max-width:576px){
@@ -431,5 +492,26 @@ nav ul{
 .btn-subscribe{
     width: 103px ;
 }
+
+/* Footer Section */
+.footer-container{
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.home-link ul {
+        margin-left: 0%;
+    
+}
+
+.feature-link ul{
+        margin-left: 0%;
+        margin-bottom: 3%;
+}
+
+.social-logo{
+     margin: 2%;
+}
+
 
 }
