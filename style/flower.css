@@ -3,6 +3,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 header{
@@ -457,6 +458,7 @@ input::placeholder{
     header{
 
     height: 38px;
+    max-width: 100%;
     width: 93%;
     margin: 0 auto;
     margin: 50px 0px 0px 20px;
@@ -482,7 +484,7 @@ nav ul{
 /* Banner-Section */
 .banner-container{
     flex-direction: column-reverse;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     height: auto;
     margin: 30px 0px 0px 20px;
@@ -526,7 +528,7 @@ nav ul{
 
 /* plant section */
 .plant-details{
-    max-width: 393px;
+    max-width: 100%;
     height: 117px;
    
    
@@ -535,7 +537,7 @@ nav ul{
 
 .card-container{
     grid-template-columns: repeat(2,1fr);
-    max-width: 361px;
+    max-width: 100%;
     height: auto;
 
 }
@@ -551,7 +553,7 @@ nav ul{
 .plant-lover{
     flex-direction: column;
     width: 100%;
-    max-width:361px;
+    max-width:100%;
     height: auto;
     box-sizing: border-box;
     align-items: start;
@@ -598,7 +600,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 393px;
+    max-width:100%;
     margin: 0 auto;
     height: 178px;
     text-align: center;
@@ -645,7 +647,7 @@ nav ul{
 
 /* Join Section */
 .join-section{
-    width:100%;
+    max-width:100%;
     height: 276px;
     
 
@@ -668,6 +670,7 @@ nav ul{
 
 /* Footer Section */
 .footer-container{
+    max-width:100%;
     flex-direction: column;
     justify-content: flex-start;
     margin:50px  14px 50px 20px;
@@ -683,7 +686,7 @@ nav ul{
 
 
 .feature-link ul{
-        margin-bottom: 2%;
+        margin-bottom: 6%;
     
 }
 
@@ -691,7 +694,7 @@ nav ul{
 .social-logo{
     width: 216px;
     height: 36px;
-    margin-left: 3%;
+    margin-left: 8%;
     margin-bottom: 5%;
     padding-bottom: 5%;
 }
