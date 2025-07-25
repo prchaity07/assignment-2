@@ -525,6 +525,14 @@ nav ul{
 }
 
 /* plant section */
+.plant-details{
+    max-width: 393px;
+    height: 117px;
+   
+   
+}
+
+
 .card-container{
     grid-template-columns: repeat(2,1fr);
     max-width: 361px;
