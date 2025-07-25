@@ -220,12 +220,18 @@ color: #E95A08;
     margin-bottom: 0%;
 }
 
+.title-responsive{
+    display: none;
+
+}
+
 .plant-lover-description{
     font-weight: 400;
     font-size: 1.23rem;
     opacity: 50%;
    
 }
+
 .plant-lover-description li {
     margin-bottom: 20px;}
 
@@ -447,11 +453,29 @@ nav ul{
 .plant-lover{
     flex-direction: column;
     width: 90%;
-    max-width: none; 
     height: auto;
     box-sizing: border-box;
     align-items: start;
-    
+    margin-bottom: 16%;
+}
+
+.title-responsive{
+    display: block;
+    font-weight: bold;
+    font-size: 1.7rem;
+    width: 270px;
+    height: 33px;
+    margin-bottom: 0%;
+}
+.flower-lover-title{
+    display: none;
+}
+
+.plant-lover-description{
+    font-size: 0.875rem;
+    width: 361px;
+    height: 51px;
+    opacity: 50%;
    
 }
 
@@ -497,6 +521,8 @@ nav ul{
 .footer-container{
     flex-direction: column;
     margin-left: 5%;
+
+    
 }
 
 .home-link ul {
@@ -506,12 +532,18 @@ nav ul{
 
 .feature-link ul{
         margin-left: 0%;
-        margin-bottom: 3%;
+        margin-bottom: 2%;
+    
 }
 
+
 .social-logo{
-     margin: 2%;
+    width: 216px;
+    height: 36px;
+    margin-left: 3%;
+    padding-bottom: 5%;
 }
+
 
 
 }
