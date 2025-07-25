@@ -245,6 +245,83 @@ color: #E95A08;
     margin-bottom: 49px;
 }
 
+.offer-section{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    max-width: 1140px;
+    margin-bottom: 10%;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    gap: 28px;
+    text-align: center;
+}
+
+.small-card-bloom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367px;
+    height: 201px;
+    font-size: 1.21rem;
+    font-weight: 800;
+    color:#FFFFFF ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid none;
+    border-radius: 14px;
+}
+
+.small-card-ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367px;
+    height: 201px;
+    margin-top: 25px;
+    font-size: 1.21rem;
+    font-weight: 800;
+    color:#FFFFFF ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid none;
+    border-radius: 14px;
+}
+
+
+.large-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 753px;
+    height:423px;
+    font-size: 2.7rem;
+    font-weight: 800;
+    color:#FFFFFF ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid none;
+    border-radius: 22px;
+}
+
+.offer-section a:visited{
+    color: #FFFFFF;
+    font-weight: 500;
+}
 
 /* Join Section */
 
@@ -456,7 +533,7 @@ nav ul{
     height: auto;
     box-sizing: border-box;
     align-items: start;
-    margin-bottom: 16%;
+    margin-bottom: 20%;
 }
 
 .title-responsive{
@@ -490,6 +567,56 @@ nav ul{
     height: auto;
     margin: 0 auto;
 
+}
+
+ /* latest Deal Section */
+.latest-deal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 393px;
+    margin: 0 auto;
+    height: 178px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 5%;
+}
+
+.plant-description{
+    font-weight: 500;
+     font-size: 0.875rem;
+     color: rgba(0, 0, 0, 0.8);
+}
+
+.offer-section{
+    flex-direction: column;
+    max-width: 361px;
+    height: 581px;
+    text-align: center;
+}
+
+.small-card-bloom .small-card-ana{
+    
+    width: 361px;
+    height: 184px;
+   
+}
+
+
+.large-card{
+    width: 361px;
+    height: 172px;
+    font-size: 1.21rem;
+    font-weight: 800;
+ 
+ 
+    border: 1px solid none;
+    border-radius: 14px;
+}
+
+.offer-section a:visited{
+    color: #FFFFFF;
+    font-weight: 500;
 }
 
 /* Join Section */
@@ -540,9 +667,11 @@ nav ul{
     width: 216px;
     height: 36px;
     margin-left: 3%;
+    margin-bottom: 5%;
     padding-bottom: 5%;
 }
 
+  
 
 
 }
