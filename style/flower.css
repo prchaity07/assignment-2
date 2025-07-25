@@ -526,7 +526,9 @@ nav ul{
 
 /* plant section */
 .card-container{
-     grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    max-width: 361px;
+    height: auto;
 
 }
 
@@ -660,18 +662,19 @@ nav ul{
 /* Footer Section */
 .footer-container{
     flex-direction: column;
-    margin-left: 5%;
+    justify-content: flex-start;
+    margin:50px  14px 50px 20px;
 
     
 }
 
-.home-link ul {
-        margin-left: 0%;
-    
+.website-intro{
+        width: 359px;
+        height: 173px;
 }
+
 
 .feature-link ul{
-        margin-left: 0%;
         margin-bottom: 2%;
     
 }
