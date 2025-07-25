@@ -458,7 +458,8 @@ input::placeholder{
 
     height: 38px;
     width: 93%;
-    margin: 13px 17px 0px 17px;
+    margin: 0 auto;
+    margin: 50px 0px 0px 20px;
     }
 
    nav ul li:not(.cart) {
@@ -468,21 +469,24 @@ input::placeholder{
 
 header img{
    max-width: 100%;
-    height: auto;
+   margin: 0 auto;
+   height: auto;
 }
 nav ul{
     justify-content: space-between;
     width: 100%;
+    margin: 0 auto;
 
 }
 
 /* Banner-Section */
 .banner-container{
     flex-direction: column-reverse;
-    width: 99%;
-    margin: 13px 0px 0px 13px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    margin: 30px 0px 0px 20px;
     gap:25px ;
-    padding: 0%;
     
 
 
@@ -503,11 +507,17 @@ nav ul{
 }
 
 .banner-description{
+    
     text-align: start;
     width: 90%;
     height: auto;
 }
- 
+
+.banner-img {
+    max-width: 100%;
+    height:auto;
+}
+
 .banner-img img{
 
         width: 95%;
@@ -517,8 +527,9 @@ nav ul{
 /* plant section */
 .card-container{
      grid-template-columns: repeat(2,1fr);
-     margin-left: 1%;
+
 }
+
 .plant-description{
   margin-left:1%;
 }
@@ -529,7 +540,8 @@ nav ul{
 }
 .plant-lover{
     flex-direction: column;
-    width: 90%;
+    width: 100%;
+    max-width:361px;
     height: auto;
     box-sizing: border-box;
     align-items: start;
@@ -552,14 +564,16 @@ nav ul{
     font-size: 0.875rem;
     width: 361px;
     height: 51px;
+    margin: 0 auto;
+    
    
 }
 
 .image-with-badge-container{
     width: 100%;
-    max-width: 576px;
+    max-width: 358px;
+    margin: 0 auto;
     height: auto;
-    margin-bottom:0px;
 }
 
 .image-with-badge-container img{
